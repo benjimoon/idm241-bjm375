@@ -12,9 +12,9 @@
     font-family: inter;
     font-size: 2rem;
     padding: 1rem;
-    padding-left: 4rem;
     margin: auto;
     color: #7848c5;
+    text-align: center;
 }
 .step-img {
     display: block;
@@ -48,7 +48,7 @@
 .link-text {
     font-family: inter;
     font-size: 1rem;
-    padding-left: 8rem;
+    text-align: center;
 }
 a:link,
 :visited {
@@ -68,13 +68,35 @@ a:link,
     padding: 1rem;
     color: #7848c5;
 }
+.works1 {
+    padding: 1rem;
+}
+.works2 {
+    padding: 1rem;
+}
+.works3 {
+    padding: 1rem;
+}
+.works4 {
+    padding: 1rem;
+}
+.step1_1 {
+    padding: 1rem;
+}
+.step2_2 {
+    padding: 1rem;
+}
+.step3_3 {
+    padding: 1rem;
+}
+
 /* desktop css*/
 @media (min-width:768px) {
     .home-body {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
-            "h1 h2 h3 h4";
+            "h1 h2";
             
     }
 .step1_1 {
@@ -89,15 +111,9 @@ a:link,
     grid-area: h3;
     padding: 3rem;
 }
-.step4_4 {
-    grid-area: h4;
-    padding: 3rem;
-}
 .home-title {
-    padding-left: 33rem;
-}
-.link-text {
-    padding-left: 41rem;
+display: block;
+margin: auto;
 }
 }
 @media (min-width:768px) {
@@ -110,22 +126,21 @@ a:link,
     }
 .works1 {
     grid-area: w1;
-    padding-left: 5rem;
+    padding: 3rem;
 }
 .works2 {
     grid-area: w2;
+    padding: 3rem;
 
 }
 .works3 {
     grid-area: w3;
+    padding: 3rem;
 
 }
 .works4 {
     grid-area: w4;
+    padding: 3rem;
 
-}
-.home-title {
-font-size: 4rem;
-padding-left: 30rem;
 }
 }

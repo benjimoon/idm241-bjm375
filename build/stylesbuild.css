@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'inter';
+    src: url("./fonts/Inter-Bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: 'open';
+    src: url("./fonts/OpenSans-Regular.woff2") format("woff2");
+}
+.home-all {
+    position: relative;
+    padding-top: 5rem;
+}
+.bag-button {
+    font-family: 'inter';
+}
+.bell-img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: #fff;;
+    background: #000;;
+    border:1px solid #000;
+    transition:.2s all;
+    overflow:hidden;
+    font-weight:bold;
+    width:150px;
+    height:30px;
+    font-size:.8rem;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    cursor:pointer;
+}
+a:hover {
+    background:transparent;
+    color:#000;
+}
+.money-text {
+    font-size: 1rem;
+    font-family: 'open';
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.money-text1 {
+    font-size: 1rem;
+    font-family: 'open';
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.works {
+    margin: auto;
+    padding: 1rem;
+    padding-top: 4rem;
+}
+.step-text1 {
+    text-align: left;
+    font-size: 1rem;
+    font-family: inter;
+    margin: auto;
+}
+ .lists-text {
+font-family: open;
+}
+@media (min-width:768px) {
+    .works {
+        padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "w1 w2 w3 w4"     
+    }
+.works1 {
+    grid-area: w1;
+    padding: 3rem;
+}
+.works2 {
+    grid-area: w2;
+    padding: 3rem;
+
+}
+.works3 {
+    grid-area: w3;
+    padding: 3rem;
+
+}
+.works4 {
+    grid-area: w4;
+    padding: 3rem;
+
+}
+}

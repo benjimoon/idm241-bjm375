@@ -68,12 +68,23 @@ a:hover {
     font-size: 1rem;
     font-family: inter;
     margin: auto;
+    color: #C62368;
 }
  .lists-text {
 font-family: open;
 }
+.works0 {
+    font-family: inter;
+    color:#C62368;
+    font-size: 1.5rem;
+    padding: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+    margin: auto;
+}
 @media (min-width:768px) {
     .works {
+        padding-top: 0rem;
         padding-bottom: 2rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;

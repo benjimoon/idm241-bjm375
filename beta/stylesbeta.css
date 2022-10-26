@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'inter';
+    src: url("./fonts/Inter-Bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: 'open';
+    src: url("./fonts/OpenSans-Regular.woff2") format("woff2");
+}
+
+.home-title {
+    display: block;
+    font-family: inter;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: auto;
+    color: #C62368;
+    text-align: center;
+}
+.step-img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+}
+.step-text1 {
+    font-family: inter;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #C62368;
+}
+.step-text2 {
+    font-family: inter;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.step-text3 {
+    font-family: inter;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.step-text4 {
+    font-family: inter;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.link-text {
+    font-family: inter;
+    font-size: 1rem;
+    text-align: center;
+}
+a:link,
+:visited {
+    color: #1f1f1f;
+    text-decoration: none;
+}
+.lists-text {
+    font-family: open;
+    line-height: 2rem;
+}
+.step-text1 {
+    padding-bottom: 0rem;
+}
+.step-text {
+    font-family: inter;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #C62368;
+}
+.works1 {
+    padding: 1rem;
+}
+.works2 {
+    padding: 1rem;
+}
+.works3 {
+    padding: 1rem;
+}
+.works4 {
+    padding: 1rem;
+}
+.step1_1 {
+    padding: 1rem;
+}
+.step2_2 {
+    padding: 1rem;
+}
+.step3_3 {
+    padding: 1rem;
+}
+
+/* desktop css*/
+@media (min-width:768px) {
+    .home-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "h1 h2 h3";
+            
+    }
+.step1_1 {
+    grid-area: h1;
+    padding: 3rem;
+}
+.step2_2 {
+    grid-area: h2;
+    padding: 3rem;
+}
+.step3_3 {
+    grid-area: h3;
+    padding: 3rem;
+}
+.home-title {
+display: block;
+margin: auto;
+}
+}
+@media (min-width:1000px) {
+    .works {
+        padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "w1 w2 w3 w4"     
+    }
+.works1 {
+    grid-area: w1;
+    padding: 3rem;
+}
+.works2 {
+    grid-area: w2;
+    padding: 3rem;
+
+}
+.works3 {
+    grid-area: w3;
+    padding: 3rem;
+
+}
+.works4 {
+    grid-area: w4;
+    padding: 3rem;
+
+}
+}

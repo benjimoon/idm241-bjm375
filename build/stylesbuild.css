@@ -82,7 +82,7 @@ font-family: open;
     text-align: center;
     margin: auto;
 }
-@media (min-width:768px) {
+@media (min-width:900px) {
     .works {
         padding-top: 0rem;
         padding-bottom: 2rem;
@@ -110,4 +110,10 @@ font-family: open;
     padding: 3rem;
 
 }
+}
+footer {
+padding-top: 3rem;
+text-align: center;
+margin: auto;
+font-family: 'inter';
 }

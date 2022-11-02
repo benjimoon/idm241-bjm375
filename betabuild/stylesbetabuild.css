@@ -23,10 +23,6 @@
 	 position: relative;
 	 transition:.2s all;
 }
-.custom-select:hover {
-		background:black;
-		color: #fff;
-	}
  .custom-select select {
 	 display: none;
 }
@@ -39,18 +35,22 @@
 	 padding: 0 64px 0 15px;
 	 font-weight: 500;
 	 border: 1px solid black;
-	 color: black;
 	 text-transform: uppercase;
 	 font-size: 12px;
 	 background: transparent;
 	 cursor: pointer;
 }
+	
 .custom-select-trigger:hover {
 	color: #fff;
 }
 .custom-select-trigger:hover::after {
 	border-bottom: 2px solid #fff;
 	border-right: 2px solid #fff;
+}
+.custom-select .custom-options .custom-option:hover {
+	background:black;
+	color: #fff;
 }
  .custom-select-trigger:after {
 	 position: absolute;
@@ -76,6 +76,9 @@
 	 border-bottom: 2px solid #fff;
 	 border-right: 2px solid #fff;
 }
+
+
+
  .custom-select.opened .custom-options {
 	 opacity: 1;
 	 visibility: visible;

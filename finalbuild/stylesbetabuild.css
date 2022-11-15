@@ -77,7 +77,7 @@
 }
  .custom-select.opened .custom-select-trigger {
 	 background-color: black;
-	 color: #fff;
+	 color: white;
 	 border-color: black;
 }
  .custom-select.opened .custom-select-trigger:after {
@@ -110,15 +110,16 @@
 	 padding: 5px;
 }
  .custom-select .custom-options .custom-option {
+	font-size: .8rem;
 	 display: block;
 	 padding: 0 22px;
 	 background-color: white;
-	 font-weight: 200;
 	 color: black;
 	 line-height: 47px;
+	 border: 1px solid black;
 	 cursor: pointer;
 	 transition: all 0.4s ease-in-out;
-	 margin-bottom: 5px;
+	 margin-bottom: -1px;
 }
 .custom-select .custom-options .custom-option {
 	transition:.2s all;
@@ -303,3 +304,8 @@ footer {
 		text-align: center;
 		font-weight: bold;
 	}
+
+	  
+
+
+	

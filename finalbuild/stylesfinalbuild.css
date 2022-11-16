@@ -304,8 +304,51 @@ footer {
 		text-align: center;
 		font-weight: bold;
 	}
-
-	  
-
-
+	.wishlist-card {
+		background-color: #fff;
+		position: fixed;
+		max-height: 90vh;
+		min-height: 31.25rem;
+		width: 31.25rem;
+		width: 50%;
+		margin: 0 25vw;
+		top: 10vh;
+		z-index: 10;
+		padding: 3rem;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+	.wishlist-card:after {
+		transition:.2s all;
+	}
 	
+	.hidden {
+		display: none;
+	}
+	.hover_title {
+		font-family: 'inter';
+		padding: 1rem;
+	}
+	.hover_desc {
+		font-family: 'inter';
+		color: var(--bg-three);
+		line-height: 30px;
+		padding: 1rem;
+	}
+	
+	.wishlist-button {
+		cursor:pointer;
+		font-family: 'inter';
+		color: rgb(199, 199, 199);
+		background:white;
+		display: block;
+		border: none;
+		margin: auto;
+		text-decoration: underline;
+	}
+	.wishlist-stuff {
+		padding: 1rem;
+	}

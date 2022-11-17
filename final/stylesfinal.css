@@ -156,7 +156,7 @@ color: #fff;
 .step-img {
     display: block;
     width: 100%;
-    max-width: 320px;
+    max-width: 420px;
     height: auto;
     padding: 2rem;
     margin: auto;
@@ -302,7 +302,7 @@ footer {
 		text-align: center;
 		font-weight: bold;
 	}
-	@media (min-width:768px) {
+	@media (min-width:1000px) {
 		.home-body {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
@@ -323,7 +323,7 @@ footer {
 	margin: auto;
 	}
 	}
-	@media (min-width:768px) {
+	@media (min-width:1000px) {
 		.home-body2 {
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;
@@ -343,23 +343,24 @@ footer {
 		padding: 3rem;
 	}
 	}
-	@media (min-width:768px) {
+	@media (min-width:1000px) {
 		.home-body3 {
 			display: grid;
-			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr;
 			grid-template-areas:
-				"h6 h7 h8";
+				"t1 t2";
+				
 		}
 	.step6_6 {
-		grid-area: h6;
+		grid-area: t1;
 		padding: 3rem;
 	}
 	.step7_7 {
-		grid-area: h7;
+		grid-area: t2;
 		padding: 3rem;
 	}
-	.step8_8 {
-		grid-area: h8;
-		padding: 3rem;
+	.home-title {
+	display: block;
+	margin: auto;
 	}
 	}

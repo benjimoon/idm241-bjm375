@@ -85,22 +85,5 @@ function wrap(el, wrapper) {
 /*=====  End of Custom select         ======*/
 
 
-const wishlistButton = document.querySelector(".wishlist-button");
-const closeButton = document.querySelectorAll(".close-card");
-  
-closeButton.forEach(element => {
-    element.addEventListener("click", function (event) {
-        event.preventDefault();
-const wishlistButton = document.querySelector(".wishlist-card");
-wishlistButton.classList.add("hidden");
-});
-});
-
-wishlistButton.addEventListener("click", function () {
-    const wishlistButton = document.querySelector(".wishlist-card");
-    wishlistButton.classList.toggle("hidden");
-});
-
-  
   
   

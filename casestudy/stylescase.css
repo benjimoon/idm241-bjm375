@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'neue';
+    src: url("./fonts/NeuePlakRegular.woff2") format("woff2");
+}
+@font-face {
+    font-family: 'neuesemi';
+    src: url("./fonts/NeuePlakSemiBold.woff2") format("woff2");
+}
+@font-face {
+    font-family: 'neuebold';
+    src: url("./fonts/NeuePlakBold.woff2") format("woff2");
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-title {
+    font-family: 'neuesemi';
+    text-align: center;
+    font-size: 1.5rem;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.main-img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.sub-title {
+    padding: 1rem;
+    font-family: 'neuesemi';
+    font-size: 1.3rem;
+    margin: auto;
+    padding-bottom: 0rem;
+    color: #FF7999;
+}
+.main-desc {
+    padding: 1rem;
+    margin: auto;
+    font-family: 'neue';
+    line-height: 2rem;
+}
+footer {
+    text-align: center;
+    padding-top: 4rem;
+    margin: auto;
+    font-family: 'neue';
+}
+.image-content {
+    padding: 2rem;
+    margin: auto;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.live-link {
+    font-family: 'neue';
+    color:#FF7999;
+    padding: 1rem;
+}
+.live-link:active {
+    color: #FF7999;
+}
+.live-link a {
+    color: #FF7999;
+}
+.main-img-1 {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media (min-width:1200px) {
+    .main-title {
+        font-size: 3rem;
+    }
+    .main-img {
+        max-width: 440px;
+        border-radius: 20px;
+    }
+    .sub-title {
+        font-size: 1.6rem;
+    }
+    .main-desc {
+        font-size: 1.2rem;
+    }
+    .content {
+        margin: 0px 355px;
+    }
+    .main-img-1 {
+        max-width: 500px;
+        border-radius: 20px;
+    }
+    
+}

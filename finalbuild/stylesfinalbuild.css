@@ -28,6 +28,17 @@
 		color: white;
 		background: black;
 		}
+		.custom-select .custom-options .custom-option:hover {
+			background:black;
+			color: #fff;
+		}
+		.custom-select-trigger:hover {
+			color: #fff;
+		}
+		.custom-select-trigger:hover::after {
+			border-bottom: 2px solid #fff;
+			border-right: 2px solid #fff;
+		}
 }
 
 
@@ -49,17 +60,8 @@
 	 cursor: pointer;
 }
 	
-.custom-select-trigger:hover {
-	color: #fff;
-}
-.custom-select-trigger:hover::after {
-	border-bottom: 2px solid #fff;
-	border-right: 2px solid #fff;
-}
-.custom-select .custom-options .custom-option:hover {
-	background:black;
-	color: #fff;
-}
+
+
  .custom-select-trigger:after {
 	 position: absolute;
 	 display: block;
@@ -222,7 +224,7 @@ a:link,
 .works4 {
     padding: 1rem;
 }
-@media (min-width:1000px) {
+@media (min-width:1250px) {
     .works {
         padding-bottom: 2rem;
         display: grid;
@@ -283,7 +285,10 @@ footer {
 		justify-content:center;
 		align-items:center;
 		position:relative;
-		cursor:pointer;
+		cursor:default;
+	}
+	.bag-div {
+		padding-top: 3rem;
 	}
 	a:hover {
 		background:transparent;
